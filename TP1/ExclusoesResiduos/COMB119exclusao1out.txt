@@ -1,0 +1,472 @@
+  DATUM 1  (D73       )    --->  DATUM 2  (ETRS89    )
+
+     A1        Q. EXC1      A2        Q. EXC2
+   6378388.0  .00672267   6378137.0  .00669438
+
+ 
+
+      N. DO PONTO            RESIDUOS (m)
+
+                             (VX/VY/VZ)
+
+       2  S. NOMÉDIO      
+                                -.058
+                                 .474
+                                 .754
+       3  S. PAIO         
+                                -.801
+                                 .357
+                                 .428
+       4  STA TECLA 2º    
+                                -.836
+                                 .371
+                                 .576
+       5  PENEDA-PSW      
+                                -.862
+                                 .462
+                                 .207
+       6  LAROUCO-TF25    
+                                -.428
+                                 .688
+                                 .190
+       7  COROA           
+                                 .159
+                                 .573
+                                -.207
+       8  MAIROS          
+                                 .116
+                                 .683
+                                 .144
+       9  DEILÃO-PS       
+                                 .234
+                                 .575
+                                -.320
+       10 STA LUZIA       
+                                -.886
+                                 .261
+                                 .718
+       11 OURAL-PS        
+                                -.361
+                                 .311
+                                 .631
+       12 CABREIRA        
+                                -.370
+                                 .323
+                                 .217
+       13 PADRELA         
+                                -.198
+                                 .417
+                                -.022
+       14 NOGUEIRA-TF23   
+                                 .260
+                                 .444
+                                -.222
+       15 LUZ             
+                                 .277
+                                 .453
+                                -.317
+       16 CAMPO DE VÍBORAS
+                                 .457
+                                 .394
+                                -.285
+       17 S. FÉLIX-PW     
+                                -.512
+                                 .043
+                                 .372
+       18 CITÂNIA         
+                                 .076
+                                 .095
+                                 .587
+       19 LUZIM-PSW       
+                                 .179
+                                 .010
+                                 .609
+       20 MARÃO-TF15      
+                                -.017
+                                 .027
+                                 .276
+       21 BORNES          
+                                 .228
+                                 .300
+                                -.108
+       22 FONTE LONGA-TF16
+                                -.025
+                                 .303
+                                 .010
+       23 LAGOAÇA         
+                                 .430
+                                 .363
+                                -.145
+       24 S. ROQUE        
+                                1.408
+                                 .159
+                                 .513
+       26 S. PEDRO VELHO  
+                                -.099
+                                -.018
+                                 .170
+       27 MONTEMURO-TF13  
+                                -.317
+                                -.045
+                                -.102
+       28 LEOMIL-TF14     
+                                -.221
+                                -.030
+                                -.174
+       29 PISCO-TF20      
+                                -.259
+                                -.102
+                                -.263
+       30 MAROFA          
+                                 .139
+                                 .104
+                                -.226
+       31 AVEIRO-EXC      
+                                 .077
+                                -.225
+                                 .470
+       32 PRAIA DE MIRA   
+                                 .079
+                                -.334
+                                 .177
+       33 CARAMULO        
+                                -.168
+                                -.193
+                                 .073
+       34 SRA DO CASTELO-E
+                                 .294
+                                -.545
+                                -.012
+       35 CABEÇA ALTA-TF9 
+                                -.128
+                                -.095
+                                -.410
+       36 JARMELO-TF21    
+                                 .001
+                                -.054
+                                -.367
+       37 VILAR FORMOSO   
+                                 .222
+                                -.116
+                                -.334
+       38 GUINALDO        
+                                 .177
+                                -.179
+                                -.332
+       39 BUÇACO          
+                                -.227
+                                -.290
+                                -.094
+       40 BUARCOS-TF11    
+                                 .203
+                                -.443
+                                 .296
+       41 LOUSÃ-TF17      
+                                -.068
+                                -.201
+                                -.149
+       42 S. MIGUEL DE MID
+                                 .047
+                                -.285
+                                 .041
+       43 S. PEDRO DE AÇOR
+                                -.215
+                                -.210
+                                -.474
+       44 ESTRELA         
+                                -.667
+                                -.124
+                                -.819
+       45 GARDUNHA-PS     
+                                -.245
+                                -.260
+                                -.338
+       46 S. CORNÉLIO     
+                                -.046
+                                -.227
+                                -.256
+       47 MEZAS           
+                                 .232
+                                -.341
+                                -.163
+       48 MONSANTO-TF8    
+                                 .265
+                                -.374
+                                -.217
+       49 PATAIAS         
+                                 .396
+                                -.461
+                                -.242
+       50 MONTE REDONDO-PS
+                                 .262
+                                -.304
+                                 .026
+       51 SICÓ-PSW        
+                                 .436
+                                -.161
+                                 .091
+       52 CABEÇO RAINHA-TF
+                                -.076
+                                -.235
+                                -.333
+       53 MELRIÇA -TF4    
+                                 .112
+                                -.423
+                                -.235
+       54 S. MARTINHO-PE  
+                                -.010
+                                -.361
+                                -.154
+       55 CABEÇO ALTO     
+                                 .280
+                                -.512
+                                -.180
+       56 PENICHE-PNE     
+                                 .384
+                                -.620
+                                -.333
+       57 BOURO           
+                                 .454
+                                -.736
+                                -.106
+       58 CANDEEIROS      
+                                 .203
+                                -.446
+                                -.206
+       59 AIRE-TF6        
+                                 .033
+                                -.219
+                                -.364
+       60 MEDROA          
+                                 .172
+                                -.301
+                                -.160
+       61 CABEÇA GORDA    
+                                 .362
+                                -.292
+                                -.117
+       62 FIGUEIRAS       
+                                 .293
+                                -.315
+                                -.118
+       63 S. MIGUEL DE NIS
+                                 .020
+                                -.457
+                                -.359
+       64 VALE DE ÁGUA    
+                                 .136
+                                -.363
+                                -.144
+       66 S. MAMEDE-TF3   
+                                -.313
+                                -.512
+                                -.482
+       67 MONTEJUNTO-TF7  
+                                 .213
+                                -.450
+                                -.342
+       68 ROMÃ-PSW        
+                                 .408
+                                -.298
+                                -.371
+       69 ALMEIRIM        
+                                 .281
+                                -.312
+                                -.154
+       70 MONTARGIL-TF2   
+                                 .049
+                                -.306
+                                -.205
+       71 ALTER PEDROSO   
+                                 .001
+                                -.456
+                                -.097
+       72 ATALAIA DA CONTE
+                                 .284
+                                -.662
+                                 .328
+       73 MONGE           
+                                 .292
+                                -.114
+                                -.478
+       74 SERVES-TF1      
+                                 .343
+                                -.234
+                                -.362
+       75 LISBOA          
+                                 .516
+                                -.126
+                                -.159
+       76 S. TORCATO      
+                                 .337
+                                -.285
+                                -.088
+       77 BOMBEL          
+                                 .331
+                                -.126
+                                -.194
+       78 CAIXEIRO        
+                                 .289
+                                -.430
+                                 .134
+       79 ARRAIOLOS       
+                                -.007
+                                -.241
+                                -.202
+       80 OSSA-TF29       
+                                -.112
+                                -.361
+                                -.038
+       81 REGO-PSE        
+                                 .002
+                                -.458
+                                 .073
+       82 PALMELA         
+                                 .417
+                                -.090
+                                -.260
+       83 SESIMBRA        
+                                 .500
+                                 .032
+                                -.261
+       84 SERRINHA-PE     
+                                 .230
+                                 .023
+                                -.087
+       85 MONFURADO-TF28  
+                                -.147
+                                -.041
+                                -.264
+       86 CARRASCAIS      
+                                 .017
+                                 .089
+                                -.116
+       87 ESPINHEIRA      
+                                 .101
+                                -.167
+                                 .164
+       88 MENDRO-TF31     
+                                -.124
+                                -.039
+                                 .049
+       89 S. VICENTE-PSE  
+                                -.122
+                                 .001
+                                -.104
+       90 MONSARAZ        
+                                 .050
+                                -.294
+                                 .346
+       91 MENTIRAS-PE     
+                                -.122
+                                -.260
+                                 .421
+       92 ATALAIA DE GRÂND
+                                 .077
+                                 .212
+                                -.289
+       93 BARROS-PE       
+                                 .111
+                                 .304
+                                -.108
+       94 ALJUSTREL-TF33  
+                                -.017
+                                 .370
+                                 .123
+       95 ATALAIA GORDA   
+                                -.217
+                                -.145
+                                 .295
+       96 BEJA            
+                                -.152
+                                 .122
+                                 .140
+       97 GUADALUPE       
+                                -.260
+                                -.064
+                                 .287
+       98 FICALHO-PSW     
+                                -.937
+                                -.091
+                                -.094
+       99 CERCAL-TF32     
+                                 .155
+                                 .644
+                                -.109
+      100 BARRADINHA-PW   
+                                -.001
+                                 .437
+                                 .040
+      101 S. TEOTÓNIO-PE  
+                                -.031
+                                 .992
+                                -.050
+      102 VIGIA-TF34      
+                                -.093
+                                 .584
+                                 .080
+      103 ÁGUA NEGRA      
+                                -.312
+                                -.051
+                                 .462
+      104 ALCARIA RUIVA-TF
+                                -.371
+                                 .206
+                                 .385
+      105 URZA-PS         
+                                -.201
+                                 .319
+                                 .373
+      108 FOIA-TF36       
+                                -.584
+                                1.092
+                                -.295
+      110 MÚ-TF37         
+                                -.640
+                                 .561
+                                 .098
+      111 QUINTÃ-PW       
+                                -.515
+                                 .412
+                                 .348
+      113 ALCARIA DO CUME-
+                                -.380
+                                 .544
+                                 .728
+      117 SOBRAL          
+                                -.035
+                                 .947
+                                 .506
+      118 GUILHIM-TF40    
+                                -.205
+                                 .723
+                                 .806
+      119 STA MARIA-EXC   
+                                -.112
+                                 .702
+                                 .853
+
+      SOMA DOS QUADRADOS DOS RESIDUOS =      41.305
+
+      N. GRAUS LIB. =320
+
+      E.M.Q. DA UNIDADE DE PESO =      .359
+
+
+
+    PARAMETROS DA TRANSF.    &    E.M.Q. DOS PARAMETROS
+
+      DX(m)      ==>    -229.401        1.513
+
+      DY(m)      ==>     103.325        3.626
+
+      DZ(m)      ==>      26.158        1.378
+
+      ALFA(ppm)  ==>       1.677         .203
+
+      EX(seg)    ==>       -.714         .081
+
+      EY(seg)    ==>        .258         .050
+
+      EZ(seg)    ==>       -.930         .096
+
