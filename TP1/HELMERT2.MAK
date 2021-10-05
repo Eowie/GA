@@ -53,8 +53,8 @@ CLEAN :
 # ADD BASE F90 /Ox /c /nologo
 # ADD F90 /Ox /c /nologo
 F90_PROJ=/Ox /c /nologo 
-# ADD BASE RSC /l 0x809 /d "NDEBUG"
-# ADD RSC /l 0x809 /d "NDEBUG"
+# ADD BASE RSC /l 0x409 /d "NDEBUG"
+# ADD RSC /l 0x409 /d "NDEBUG"
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo
 # ADD BSC32 /nologo
@@ -93,8 +93,8 @@ CLEAN :
 # ADD BASE F90 /Zi /c /nologo
 # ADD F90 /Zi /c /nologo
 F90_PROJ=/Zi /c /nologo /Fd"HELMERT2.pdb" 
-# ADD BASE RSC /l 0x809 /d "_DEBUG"
-# ADD RSC /l 0x809 /d "_DEBUG"
+# ADD BASE RSC /l 0x409 /d "_DEBUG"
+# ADD RSC /l 0x409 /d "_DEBUG"
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo
 # ADD BSC32 /nologo

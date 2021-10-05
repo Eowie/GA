@@ -3,8 +3,8 @@
 	implicit real*8 (a-h,o-z)
       pi = 4.d0*datan(1.d0)
 
-      open(1,file='TR-ETRS89.TXT')
-      open (2, file = 'TR-ETRS89H.dxf')
+      open(1,file='T119Setas.prn')
+      open (2, file = 'T119SetasH.dxf')
 
       write (2, '(i3)') 0
       write (2, '(a7)') 'SECTION'

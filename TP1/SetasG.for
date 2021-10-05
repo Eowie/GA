@@ -3,8 +3,8 @@
 	implicit real*8 (a-h,o-z)
       pi = 4.d0*datan(1.d0)
 
-      open (1, file = 'sol2.prn')
-      open (2, file = 'sol2.dxf')
+      open (1, file = 'T119Setas.prn')
+      open (2, file = 'T119Setas.dxf')
 
       write (2, '(i3)') 0
       write (2, '(a7)') 'SECTION'
@@ -14,7 +14,6 @@
       zero=0.0
 	esc1=10.0
 	esc2=0.05
-	READ(*,*)
 	DO I=1,119
 	  READ(1,*)NP,AP,AM,DP,DM
 	  AM0=AM-DM
