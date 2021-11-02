@@ -4,22 +4,22 @@
 # TARGTYPE "Win32 (x86) Console Application" 0x0103
 
 !IF "$(CFG)" == ""
-CFG=DINAMEX - Win32 Debug
-!MESSAGE No configuration specified.  Defaulting to DINAMEX - Win32 Debug.
+CFG=RedeDXF - Win32 Debug
+!MESSAGE No configuration specified.  Defaulting to RedeDXF - Win32 Debug.
 !ENDIF 
 
-!IF "$(CFG)" != "DINAMEX - Win32 Release" && "$(CFG)" !=\
- "DINAMEX - Win32 Debug"
+!IF "$(CFG)" != "RedeDXF - Win32 Release" && "$(CFG)" !=\
+ "RedeDXF - Win32 Debug"
 !MESSAGE Invalid configuration "$(CFG)" specified.
 !MESSAGE You can specify a configuration when running NMAKE on this makefile
 !MESSAGE by defining the macro CFG on the command line.  For example:
 !MESSAGE 
-!MESSAGE NMAKE /f "DINAMEX.MAK" CFG="DINAMEX - Win32 Debug"
+!MESSAGE NMAKE /f "RedeDXF.mak" CFG="RedeDXF - Win32 Debug"
 !MESSAGE 
 !MESSAGE Possible choices for configuration are:
 !MESSAGE 
-!MESSAGE "DINAMEX - Win32 Release" (based on "Win32 (x86) Console Application")
-!MESSAGE "DINAMEX - Win32 Debug" (based on "Win32 (x86) Console Application")
+!MESSAGE "RedeDXF - Win32 Release" (based on "Win32 (x86) Console Application")
+!MESSAGE "RedeDXF - Win32 Debug" (based on "Win32 (x86) Console Application")
 !MESSAGE 
 !ERROR An invalid configuration is specified.
 !ENDIF 
@@ -34,7 +34,7 @@ NULL=nul
 RSC=rc.exe
 F90=fl32.exe
 
-!IF  "$(CFG)" == "DINAMEX - Win32 Release"
+!IF  "$(CFG)" == "RedeDXF - Win32 Release"
 
 # PROP BASE Use_MFC 0
 # PROP BASE Use_Debug_Libraries 0
@@ -43,11 +43,11 @@ F90=fl32.exe
 OUTDIR=.
 INTDIR=.
 
-ALL : "$(OUTDIR)\DINAMEX.exe"
+ALL : "$(OUTDIR)\RedeDXF.exe"
 
 CLEAN : 
-	-@erase ".\DINAMEX.exe"
-	-@erase ".\DINAMEX.OBJ"
+	-@erase ".\RedeDXF.exe"
+	-@erase ".\RedeDXF.obj"
 
 # ADD BASE F90 /Ox /c /nologo
 # ADD F90 /Ox /c /nologo
@@ -57,22 +57,22 @@ F90_PROJ=/Ox /c /nologo
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo
 # ADD BSC32 /nologo
-BSC32_FLAGS=/nologo /o"$(OUTDIR)/DINAMEX.bsc" 
+BSC32_FLAGS=/nologo /o"$(OUTDIR)/RedeDXF.bsc" 
 BSC32_SBRS=
 LINK32=link.exe
 # ADD BASE LINK32 kernel32.lib /nologo /subsystem:console /machine:I386
 # ADD LINK32 kernel32.lib /nologo /subsystem:console /machine:I386
 LINK32_FLAGS=kernel32.lib /nologo /subsystem:console /incremental:no\
- /pdb:"$(OUTDIR)/DINAMEX.pdb" /machine:I386 /out:"$(OUTDIR)/DINAMEX.exe" 
+ /pdb:"$(OUTDIR)/RedeDXF.pdb" /machine:I386 /out:"$(OUTDIR)/RedeDXF.exe" 
 LINK32_OBJS= \
-	"$(INTDIR)/DINAMEX.OBJ"
+	"$(INTDIR)/RedeDXF.obj"
 
-"$(OUTDIR)\DINAMEX.exe" : "$(OUTDIR)" $(DEF_FILE) $(LINK32_OBJS)
+"$(OUTDIR)\RedeDXF.exe" : "$(OUTDIR)" $(DEF_FILE) $(LINK32_OBJS)
     $(LINK32) @<<
   $(LINK32_FLAGS) $(LINK32_OBJS)
 <<
 
-!ELSEIF  "$(CFG)" == "DINAMEX - Win32 Debug"
+!ELSEIF  "$(CFG)" == "RedeDXF - Win32 Debug"
 
 # PROP BASE Use_MFC 0
 # PROP BASE Use_Debug_Libraries 1
@@ -81,33 +81,33 @@ LINK32_OBJS= \
 OUTDIR=.
 INTDIR=.
 
-ALL : "$(OUTDIR)\DINAMEX.exe"
+ALL : "$(OUTDIR)\RedeDXF.exe"
 
 CLEAN : 
-	-@erase ".\DINAMEX.exe"
-	-@erase ".\DINAMEX.OBJ"
-	-@erase ".\DINAMEX.ilk"
-	-@erase ".\DINAMEX.pdb"
+	-@erase ".\RedeDXF.exe"
+	-@erase ".\RedeDXF.obj"
+	-@erase ".\RedeDXF.ilk"
+	-@erase ".\RedeDXF.pdb"
 
 # ADD BASE F90 /Zi /c /nologo
 # ADD F90 /Zi /c /nologo
-F90_PROJ=/Zi /c /nologo /Fd"DINAMEX.pdb" 
+F90_PROJ=/Zi /c /nologo /Fd"RedeDXF.pdb" 
 # ADD BASE RSC /l 0x809 /d "_DEBUG"
 # ADD RSC /l 0x809 /d "_DEBUG"
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo
 # ADD BSC32 /nologo
-BSC32_FLAGS=/nologo /o"$(OUTDIR)/DINAMEX.bsc" 
+BSC32_FLAGS=/nologo /o"$(OUTDIR)/RedeDXF.bsc" 
 BSC32_SBRS=
 LINK32=link.exe
 # ADD BASE LINK32 kernel32.lib /nologo /subsystem:console /debug /machine:I386
 # ADD LINK32 kernel32.lib /nologo /subsystem:console /debug /machine:I386
 LINK32_FLAGS=kernel32.lib /nologo /subsystem:console /incremental:yes\
- /pdb:"$(OUTDIR)/DINAMEX.pdb" /debug /machine:I386 /out:"$(OUTDIR)/DINAMEX.exe" 
+ /pdb:"$(OUTDIR)/RedeDXF.pdb" /debug /machine:I386 /out:"$(OUTDIR)/RedeDXF.exe" 
 LINK32_OBJS= \
-	"$(INTDIR)/DINAMEX.OBJ"
+	"$(INTDIR)/RedeDXF.obj"
 
-"$(OUTDIR)\DINAMEX.exe" : "$(OUTDIR)" $(DEF_FILE) $(LINK32_OBJS)
+"$(OUTDIR)\RedeDXF.exe" : "$(OUTDIR)" $(DEF_FILE) $(LINK32_OBJS)
     $(LINK32) @<<
   $(LINK32_FLAGS) $(LINK32_OBJS)
 <<
@@ -126,21 +126,21 @@ LINK32_OBJS= \
 ################################################################################
 # Begin Target
 
-# Name "DINAMEX - Win32 Release"
-# Name "DINAMEX - Win32 Debug"
+# Name "RedeDXF - Win32 Release"
+# Name "RedeDXF - Win32 Debug"
 
-!IF  "$(CFG)" == "DINAMEX - Win32 Release"
+!IF  "$(CFG)" == "RedeDXF - Win32 Release"
 
-!ELSEIF  "$(CFG)" == "DINAMEX - Win32 Debug"
+!ELSEIF  "$(CFG)" == "RedeDXF - Win32 Debug"
 
 !ENDIF 
 
 ################################################################################
 # Begin Source File
 
-SOURCE=.\DINAMEX.FOR
+SOURCE=.\RedeDXF.for
 
-"$(INTDIR)\DINAMEX.OBJ" : $(SOURCE) "$(INTDIR)"
+"$(INTDIR)\RedeDXF.obj" : $(SOURCE) "$(INTDIR)"
 
 
 # End Source File
