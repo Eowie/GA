@@ -1,6 +1,6 @@
-'PTS1_AR_GRID.DAT'
-'PTS1_AR_RTM.DAT'
+'pontos_02kt.DAT'
+'pontos.txt'
 'PTS1_EGM96.DAT'
-'PTS1_GEOID_RES.DAT'
+'geoid_resultado.DAT'
 0.02  0.02
-341  311 1.0 90
+341  311 1.0 100

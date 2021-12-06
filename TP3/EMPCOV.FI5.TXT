@@ -1,8 +1,8 @@
  EGM96 - Anomalias residuais
   12.00  20   1 F T T
-empcov_out3.TXT
+empcov_out30.TXT
 3089    1 T   3   3   0 15.0 F
-PTS1_AR_RTM.DAT
+pontos.txt
 T
         
         
