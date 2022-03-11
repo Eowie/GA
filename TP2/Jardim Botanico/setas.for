@@ -3,10 +3,10 @@
 	implicit real*8 (a-h,o-z)
       pi = 4.d0*datan(1.d0)
 
-      open(1,file='POLIT05.dat')
-	READ(1,'(4/)')
+      open(1,file='setasJB6.prn')
+	
 
-      open (2, file = 'desvios02.dxf')
+      open (2, file = 'desvios06.dxf')
 
       write (2, '(i3)') 0
       write (2, '(a7)') 'SECTION'

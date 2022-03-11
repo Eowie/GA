@@ -1,9 +1,9 @@
- 0   0
-coords03.txt
-obs3.txt
-JBOT03.out
+ 1   1
+pontos23.txt
+obs2.txt
+relatorio.out
 n
 f
 c
-1000 0.001
-1.0
+10000 0.1
+2.53

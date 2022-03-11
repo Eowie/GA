@@ -1,6 +1,6 @@
-'pontos_02kt.DAT'
+'p01kGrid.DAT'
 'pontos.txt'
 'PTS1_EGM96.DAT'
-'geoid_resultado.DAT'
-0.02  0.02
-341  311 1.0 100
+'geoid01k.DAT'
+0.01  0.01
+681  621 1.0 200
